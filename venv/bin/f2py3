@@ -1,0 +1,11 @@
+#!/home/chen-ks/Desktop/抓取景点评论数量实现旅游景点推荐资料/代码/travel/venv/bin/python
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from numpy.f2py.f2py2e import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
